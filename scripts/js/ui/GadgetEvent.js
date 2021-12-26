@@ -1,0 +1,1 @@
+function GadgetEvent(i, c){	var clazz = new Class(	{		/**---protected properties---**/		id: i,		cmd: c	});		return clazz;}/**---static variables---**/GadgetEvent.ET_DEFAULT	= "GAD_DEFAULT";GadgetEvent.ET_CHANGE	= "GAD_CHANGE";GadgetEvent.ET_KILL		= "GAD_KILL";
